@@ -5,4 +5,4 @@ title: "Troubleshooting"
 description: "FXIMU troubleshooting manual"
 ---
 
-## Troubleshooting
+**Troubleshooting**

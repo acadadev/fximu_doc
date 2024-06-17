@@ -5,4 +5,4 @@ title: "Introduction"
 description: "Introduction to FXIMU inertial measurement unit"
 ---
 
-## Introduction
+**Introduction**

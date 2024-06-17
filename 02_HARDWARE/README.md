@@ -5,4 +5,4 @@ title: "Hardware Specifications"
 description: "FXIMU Hardware Specifications"
 ---
 
-## Hardware Specifications
+**Hardware Specifications**

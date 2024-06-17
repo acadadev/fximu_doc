@@ -5,4 +5,4 @@ title: "Calibration"
 description: "FXIMU Calibration Manual"
 ---
 
-## Calibration
+**Calibration**
