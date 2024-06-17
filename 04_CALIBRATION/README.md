@@ -6,3 +6,5 @@ description: "FXIMU Calibration Manual"
 ---
 
 **Calibration**
+
+__Next Chapter:__ [Troubleshooting](../10_DEBUG/README.md)
