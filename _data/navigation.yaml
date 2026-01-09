@@ -5,11 +5,11 @@
   url: /fximu_doc/02_HARDWARE/
 
 - title: Software
-  url: /rosrider_doc/02_SOFTWARE/
+  url: /fximu_doc/02_SOFTWARE/
 
 - title: Calibration
-  url: /rosrider_doc/04_CALIBRATION/
+  url: /fximu_doc/04_CALIBRATION/
 
 - title: Troubleshooting
-  url: /rosrider_doc/10_DEBUG
+  url: /fximu_doc/10_DEBUG
 
