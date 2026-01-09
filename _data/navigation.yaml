@@ -1,0 +1,15 @@
+- title: FXIMU
+  url: /fximu_doc/
+
+- title: Hardware Specifications
+  url: /fximu_doc/02_HARDWARE/
+
+- title: Software
+  url: /rosrider_doc/02_SOFTWARE/
+
+- title: Calibration
+  url: /rosrider_doc/04_CALIBRATION/
+
+- title: Troubleshooting
+  url: /rosrider_doc/10_DEBUG
+

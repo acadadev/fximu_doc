@@ -12,11 +12,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <meta property="og:image" content="https://repository-images.githubusercontent.com/819133700/b298fc02-8de1-4335-98ec-512975d0fc26" />
   </head>
   <body>
+
+      <div class="layout-wrapper">
+      <nav class="sidebar">
+        <div class="sidebar-header">
+          <a href="https://docs.acada.dev">
+              <img src="/images/logo.svg" alt="Acada Robotics Documentation" style="width: 140px; display: block;">
+          </a>
+        </div>
+        <div class="sidebar-menu">
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                {% for item in site.data.navigation %}
+                  <li style="margin-bottom: 8px;">
+                      <a class="nav-link {% if item.active %}active{% endif %}" href="{{ item.url }}">
+                          {{ item.title }}
+                      </a>
+                  </li>
+                {% endfor %}
+            </ul>
+        </div>
+      </nav>
+      <main class="main-content markdown-body">
+          <div class="content-breadcrumbs">
+             <h4>
+               <a href="https://acada.dev">ACADA Robotics</a> •
+               <a href="https://docs.acada.dev">Documentation</a> •
+               <span class="breadcrumb-active">ROS2RPI</span>
+             </h4>
+          </div>
+          {{ content }}
+          <p style="border-top: 1px solid #EEE; margin-top:20px; padding-top: 10px; margin-bottom: 20px; font-size: 0.9em; color: #666;">
+              Copyright © 2026, ACADA Robotics • <a href="https://acada.dev">https://acada.dev</a>
+          </p>
+      </main>
+    </div>
+
     <div class="container-lg px-3">
       <div class="pt-3">
         <a href="https://acada.dev"><img src="/images/logo.svg" alt="acada robotics" /></a>
